@@ -5,12 +5,80 @@
     <link>https://example.com/category/demo/</link>
       <atom:link href="https://example.com/category/demo/index.xml" rel="self" type="application/rss+xml" />
     <description>Demo</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 06 May 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 10 May 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Demo</title>
       <link>https://example.com/category/demo/</link>
     </image>
+    
+    <item>
+      <title>Язык разметки Markdown</title>
+      <link>https://example.com/post/2/</link>
+      <pubDate>Tue, 10 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://example.com/post/2/</guid>
+      <description>&lt;h2 id=&#34;что-такое-markdown&#34;&gt;&lt;strong&gt;Что такое Markdown?&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Markdown — язык разметки текстов. Такие тексты легко писать и читать. Их можно без труда сконвертировать в HTML. Большинство программистов предпочитают Markdown для написания документации, описаний своих проектов, написания блогов и так далее.&lt;/p&gt;
+&lt;h2 id=&#34;что-это-значит&#34;&gt;&lt;strong&gt;Что это значит?&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;«Язык разметки» — это просто набор соглашений, правил.&lt;/p&gt;
+&lt;p&gt;Допустим, что вы общаетесь с другом по СМС. В них нельзя сделать текст жирным или наклонным. Вы договариваетесь с другом: если я пишу &lt;em&gt;что-то&lt;/em&gt; вот так между звездочками, то считай, что это наклонный текст. А если я пишу &lt;strong&gt;что-то&lt;/strong&gt; между двумя звездочками, то считай, что это жирный текст. Вы придумали правила.&lt;/p&gt;
+&lt;p&gt;Markdown — это набор подобных правил.&lt;/p&gt;
+&lt;p&gt;Правила понятны разным программам и сайтам. Например, «Вопросы и ответы» в уроках на Хекслете поддерживают Markdown. Это значит, что вы можете писать туда тексты по правилам Markdown, а после нажатия «Отправить» разметка станет реальной: текст в одинарных звездочках станет наклонным, текст в двойных звездочках станет жирным и так далее. Это конвертация из Markdown в HTML.&lt;/p&gt;
+&lt;h2 id=&#34;зачем-это-нужно&#34;&gt;&lt;strong&gt;Зачем это нужно?&lt;/strong&gt;&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Для добавления разметки туда, где невозможна реальная разметка. Например, в простом текстовом файле или в тех же СМС, где невозможно выделение жирным, создание заголовков, выделение цитат и пр.&lt;/li&gt;
+&lt;li&gt;Для более удобного написания текстов для последующей конвертации в HTML или другие форматы.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;синтаксис-markdown&#34;&gt;&lt;strong&gt;Синтаксис Markdown&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Это краткий справочник основных элементов синтаксиса Markdown. Единого стандарта не существует и разные версии Markdown могут отличаться в деталях. Но базовые элементы из списка ниже поддерживаются во всех стандартах.&lt;/p&gt;
+&lt;h3 id=&#34;выделение-текста&#34;&gt;&lt;strong&gt;Выделение текста&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Этот текст будет наклонным (курсив)&lt;/em&gt;&lt;/br&gt;
+&lt;em&gt;Этот текст будет наклонным (курсив)&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Этот текст будет жирным&lt;/strong&gt;&lt;/br&gt;
+&lt;strong&gt;Этот текст будет жирным&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;_Можно &lt;strong&gt;вставлять&lt;/strong&gt; один тип в другой&lt;/p&gt;
+&lt;h3 id=&#34;заголовки&#34;&gt;&lt;strong&gt;Заголовки&lt;/strong&gt;&lt;/h3&gt;
+&lt;h1 id=&#34;это-самый-крупный-заголовок-он-превращается-в-тег-h1&#34;&gt;Это самый крупный заголовок, он превращается в тег &lt;h1&gt;&lt;/h1&gt;
+&lt;p&gt;&amp;lsquo;##&amp;rsquo; &lt;h2&gt;
+&amp;lsquo;###&amp;rsquo; &lt;h3&gt;
+&amp;lsquo;####&amp;rsquo; &lt;h4&gt;
+&amp;lsquo;#####&amp;rsquo; &lt;h5&gt;
+&amp;lsquo;######&amp;rsquo; &lt;h6&gt;&lt;/p&gt;
+&lt;h3 id=&#34;ссылки&#34;&gt;&lt;strong&gt;Ссылки&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://hexlet.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://hexlet.io&lt;/a&gt; — текст простой ссылки станет кликабельной ссылкой автоматически
+Ссылкой можно сделать любой текст:&lt;/p&gt;
+&lt;p&gt;&amp;lsquo;[Это ссылка на Хекслет]&amp;rsquo;(&lt;a href=&#34;https://hexlet.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://hexlet.io&lt;/a&gt;)&lt;/p&gt;
+&lt;h3 id=&#34;цитата&#34;&gt;&lt;strong&gt;Цитата&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;&amp;lsquo;&amp;gt;&amp;rsquo; Это мудрая цитата&lt;/br&gt;
+&amp;lsquo;&amp;gt;&amp;rsquo; Мудрого человека.&lt;/p&gt;
+&lt;h3 id=&#34;картинки&#34;&gt;&lt;strong&gt;Картинки&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;&amp;lsquo;![Это опциональный alt-текст]&amp;rsquo;(/assets/images/markdown/markdown.png)
+Код
+Для выделения кода (или любого неотформатированного текста) используются специальные символы — обратные тики: `&lt;/p&gt;
+&lt;p&gt;Иногда нужно добавить кусок кода &lt;code&gt;function(12);&lt;/code&gt; в обычную строчку текста.
+А иногда нужно вставить целый блок кода:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kr&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;func&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;num&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;num&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;num&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;-&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;num&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;};&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;списки&#34;&gt;&lt;strong&gt;Списки&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Непронумерованный список:&lt;/p&gt;
+&lt;p&gt;&amp;lsquo;&lt;em&gt;&amp;rsquo; Пункт
+&amp;lsquo;&lt;/em&gt;&amp;rsquo; Еще один пункт
+&amp;lsquo;&lt;em&gt;&amp;rsquo; Подпункт
+&amp;lsquo;&lt;/em&gt;&amp;rsquo; Еще один подпункт&lt;/br&gt;
+Пронумерованный список:&lt;/p&gt;
+&lt;p&gt;&amp;lsquo;1.&amp;rsquo; Пункт
+&amp;lsquo;1.&amp;rsquo; Еще один пункт
+&amp;lsquo;1.&amp;rsquo; Подпункт
+&amp;lsquo;1.&amp;rsquo; Еще один подпункт&lt;/br&gt;
+В пронумерованном списке можно использовать любые числа — это не важно. При конвертации в HTML или другой формат числа станут правильными и последовательными (1, 2, 3 и т.д.).&lt;/p&gt;
+&lt;p&gt;Дополнительно про Markdown&lt;/br&gt;
+&lt;a href=&#34;https://ru.wikipedia.org/wiki/Markdown&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Markdown в Википедии&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>CI/CD</title>
